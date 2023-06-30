@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Macbook Air",
+      "desc": "This is the description of MACBOOK AIR",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Macbook Pro 2022",
+      "desc": "This is the description of MACBOOK pro lol",
+      "price": 1299,
+      "color": "#33505a",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Macbook Pro Intel edition",
+      "desc": "This is the description of MACBOOK AIR",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Lenovo Legion",
+      "desc": "This is the description of MACBOOK AIR",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Asus ROG",
+      "desc": "This is the description of MACBOOK AIR",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Xiaomi book pro",
+      "desc": "This is the description of MACBOOK AIR",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    }
+  ]
+}
