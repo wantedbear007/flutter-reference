@@ -1,3 +1,5 @@
+import "dart:convert";
+
 import "package:flutter/material.dart";
 import "package:flutter/services.dart";
 import "package:flutter_garbage/models/catalog.dart";
@@ -21,7 +23,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   loadData() async {
     var catalogJSON = await rootBundle.loadString("assets/files/catalog.json");
-    print(catalogJSON);
+    // print(catalogJSON);
+    final decodeData = jsonDecode(catalogJSON);
+    var productData = decodeData("products");
+
+    print(productData);
   }
 
   @override

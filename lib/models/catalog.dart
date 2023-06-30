@@ -28,6 +28,17 @@ class Item {
       required this.color,
       required this.imgUrl});
 
+  // Item.fromMap(Map<String>)
+  factory Item.fromMap(Map<String, dynamic> map) {
+    Item(
+      id: map["id"],
+      name: map["name"],
+      desc: map["desc"],
+      price: map["price"],
+      color: map["color"],
+      imgUrl: map["imgUrl"],
+    );
+  }
 // final products = [
 // Item(
 //   id: "01",
